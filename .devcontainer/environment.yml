@@ -1,0 +1,16 @@
+name: py
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - jupysql
+  - itables
+  - matplotlib
+  - s3fs=2023.3.0
+  - urllib3=1.26.15 # can replace minor version with *
+  - ipykernel
+  - python-dateutil
+variables:
+  PYTHONNOUSERSITE: 1
